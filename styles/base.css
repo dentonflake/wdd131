@@ -86,7 +86,6 @@
     box-sizing: border-box;
 
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
@@ -129,6 +128,11 @@ header nav a {
     text-decoration: none;
     color: var(--grey-100);
     font-size: var(--font-16);
+}
+
+header nav a:hover {
+    color: var(--grey-500);
+    transition: 0.2s;
 }
 
 main {
