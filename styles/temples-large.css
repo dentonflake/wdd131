@@ -18,7 +18,7 @@
         gap: 20px;
     }
 
-    main h1 {
+    main h2 {
         grid-column: 1 / 4;
     }
 }
