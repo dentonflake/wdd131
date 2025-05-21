@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+
+    <meta name="author" content="Denton">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="./styles/place.css">
+
+    <script src="./scripts/getdates.js" defer></script>
+    <script src="./scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Dominican Republic</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/dr-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/dr-medium.webp" media="(min-width: 700px)">
+                <img src="images/dr-small.webp" alt="Dominican Republic" width="400">
+            </picture>
+
+            <div class="card data">
+                <div class="card-header">
+                    <h2>Data</h2>
+                </div>
+    
+                <div class="stat"><span>Area: </span>48,671 sq km</div>
+                <div class="stat"><span>Population: </span>11,532,151</div>
+                <div class="stat"><span>Capital: </span>Santo Domingo</div>
+                <div class="stat"><span>Languages: </span>Spanish</div>
+                <div class="stat"><span>Currency: </span>Dominican peso (DOP)</div>
+                <div class="stat"><span>Time Zone: </span>AST (UTC−04:00)</div>
+                <div class="stat"><span>Calling Code: </span>+1-809, +1-829, +1-849</div>
+                <div class="stat"><span>Internet TLD: </span>.do</div>
+            </div>
+
+            <div class="card weather">
+                <div class="card-header">
+                    <h2>Weather </h2>
+                    <img src="./images/sun.svg" alt=""> 
+                </div>
+    
+                <div class="stat"><span>Temperature:</span> 10 °C</div>
+                <div class="stat"><span>Conditions:</span> Partly Cloudy</div>
+                <div class="stat"><span>Wind:</span> 5 km/h</div>
+                <div class="stat"><span>Wind Chill:</span> 9.8 °C</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Denton Flake | Arizona</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
