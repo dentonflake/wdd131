@@ -6,5 +6,5 @@ const windSpeed = 5;
 const windChillElement = document.querySelector('.windChill');
 
 if (temperature <= 10 && windSpeed > 4.8) {
-    windChillElement.innerHTML = `<span>Wind Chill:</span>${calculateWindChill(temperature, windSpeed)}`;
+    windChillElement.innerHTML = `<span>Wind Chill:</span>${calculateWindChill(temperature, windSpeed)} °C`;
 }
