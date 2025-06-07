@@ -65,6 +65,16 @@ input[type="submit"]:hover {
     background-color: #004999;
 }
 
+.required {
+    color: red;
+}
+
+.optional {
+    color: grey;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
 .message {
     background-color: rgb(234, 234, 234);
     padding: 1rem;

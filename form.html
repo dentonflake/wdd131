@@ -26,13 +26,13 @@
     <main>
         <form method="get" action="review.html">
 
-            <label for="productName">Product Name:</label>
+            <label for="productName">Product Name: <span class="required">*</span></label>
             <select id="productName" name="productName" required>
                 <option value="" disabled selected>Select a Product ...</option>
             </select>
 
             <fieldset>
-                <legend>Overall Rating:</legend>
+                <legend>Overall Rating: <span class="required">*</span></legend>
                 <label><input id="one-star" type="radio" name="rating" value="1" required /> ☆</label>
                 <label><input id="two-star" type="radio" name="rating" value="2" required /> ☆☆</label>
                 <label><input id="three-star" type="radio" name="rating" value="3" required /> ☆☆☆</label>
@@ -40,20 +40,20 @@
                 <label><input id="five-star" type="radio" name="rating" value="5" required /> ☆☆☆☆☆</label>
             </fieldset>
 
-            <label for="installDate">Date of Installation:</label>
+            <label for="installDate">Date of Installation: <span class="required">*</span></label>
             <input type="date" id="installDate" name="installDate" required />
 
             <fieldset>
-                <legend>Useful Features:</legend>
+                <legend>Useful Features: <span class="optional">(Optional)</span></legend>
                 <label><input type="checkbox" id="feature-a" name="features" value="Feature A" /> Feature A</label>
                 <label><input type="checkbox" id="feature-b" name="features" value="Feature B" /> Feature B</label>
                 <label><input type="checkbox" id="feature-c" name="features" value="Feature C" /> Feature C</label>
             </fieldset>
 
-            <label for="review">Written Review:</label>
+            <label for="review">Written Review: <span class="optional">(Optional)</span></label>
             <textarea id="review" name="review" rows="4" cols="50"></textarea>
 
-            <label for="userName">Your Name:</label>
+            <label for="userName">Your Name: <span class="optional">(Optional)</span></label>
             <input type="text" id="userName" name="userName" />
 
             <input type="submit" value="Submit Review" />
