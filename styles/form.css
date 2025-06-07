@@ -65,12 +65,7 @@ input[type="submit"]:hover {
     background-color: #1c73d0;
 }
 
-.required {
-    color: red;
-}
-
 .optional {
-    color: grey;
     font-size: 0.75rem;
     font-weight: 400;
 }
@@ -86,5 +81,4 @@ footer {
     text-align: center;
     padding: 1.5rem;
     font-size: 0.9rem;
-    color: #666;
 }
