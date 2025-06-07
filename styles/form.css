@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+main {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+form {
+    max-width: 600px;
+    margin-inline: auto;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label,
+legend,
+fieldset {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    border: none;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #004999;
+}
+
+.message {
+    background-color: rgb(234, 234, 234);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
