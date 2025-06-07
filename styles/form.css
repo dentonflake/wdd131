@@ -61,7 +61,7 @@ button {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+button:hover {
     background-color: #1c73d0;
 }
 
